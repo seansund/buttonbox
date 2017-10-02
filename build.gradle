@@ -3,8 +3,7 @@ plugins {
 }
 
 python {
-	details.prependExecutableDirectory(new File('/Library/Frameworks/Python.framework/Versions/3.6/bin'))
-	details.pythonVersion = '3.6'
+	details.pythonVersion = '3.4'
 }
 
 dependencies {
